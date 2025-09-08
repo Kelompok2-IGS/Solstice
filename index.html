@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLSTICE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Latihan1.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/animations.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/transformations.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="img copy/Logo Kelompok2-fotor-bg-remover-202509079139.png" alt="Valiance Logo">
+            <h1>VALIANCE</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">TRY VAL</a></li>
+            <li><a href="#">MAGAZINE</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="utama">
+        <header class="atas">
+            <img src="img copy/Banner Solstice.jpg" alt="Solstice banner">
+        </header>
+        <main>
+            <section class="tengah">
+                <div class="reveal-on-scroll">
+                    <div class="tengah-atas">
+                        <h1 class="text-glow">About SOLSTICE</h1>
+                    </div>
+                    <div class="tengah-tengah">
+                        <div class="tengah-tengah2">
+                            <p>Solstice merupakan nama yang berasal dari kata <b>"Solstice"</b> yang berarti titik 
+                                balik matahari, yang melambangkan puncak pencapaian dan perubahan.
+                                Solstice dapat menjadi simbol langka yang sangat bermakna. Dimana
+                                event Solstice ini hanya diadakan satu kali selama sma yang dapat
+                                menimbulkan berbagai memori indah. Lebih dari sekedar event,
+                                Solstice ini diadakan untuk melambangkan persahabatan sebuah
+                                ruang untuk mempererat hubungan, merayakan perjalanan, dan meneguhkan
+                                ikatan antar teman yang terjalin selama masa SMA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tengah-bawah reveal-on-scroll">
+                    <div class="panitia-wrapper">
+                        <div class="panitia-item">
+                            <b>Ketua Panitia</b>
+                            <p>Livia Atriana Taufiek</p>
+                        </div>
+                        <div class="panitia-item">
+                            <b>Wakil Ketua Panitia 1</b>
+                            <p></p>
+                        </div>
+                        <div class="panitia-item">
+                            <b>Wakil Ketua Panitia 2</b>
+                            <p></p>
+                        </div>
+                        <div class="panitia-item">
+                            <b>Ketua Acara</b>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bawah">
+                <div class="bawah-atas">
+                    <h1 class="text-glow">Activities & Performances</h1>
+                </div>
+                <div class="bawah-bawah">
+                    <div class="bawah-bawah1">
+                        <div class="bawah1 reveal-on-scroll">
+                            <div class="kotak1" onclick="showDetail('Performance Silat', 'Performance silat adalah perpaduan antara bela diri, seni tari, musik tradisional, dan filosofi hidup, yang ditampilkan dengan indah namun tetap menyimpan makna kekuatan dan pertahanan diri.', 'bx bx-body bx-tada ')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bx-body bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Performance Silat</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Performance Tari', 'Performance tari adalah perpaduan gerak, musik, ekspresi, dan kostum, yang menghadirkan keindahan dan makna, baik sebagai hiburan maupun sarana pelestarian budaya.', 'bxr bx-stamp bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-stamp bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Performance Tari</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Ice Breaking', 'Ice breaking adalah aktivitas penyegar suasana yang berfungsi untuk memulai kegiatan dengan lebih menyenangkan, sehingga peserta bisa lebih fokus, aktif, dan terhubung satu sama lain.', 'bx bxs-brain bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bxs-brain bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Ice Breaking</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Estafet Air', 'Estafet air dilakukan oleh setiap kelompok dengan mengirimkan lima peserta, laki-laki maupun perempuan. Masing-masing peserta diberi cangkir plastik dan penutup mata, lalu berbaris ke belakang dengan mata tertutup. Air diambil dari ember besar yang diletakkan di garis start, kemudian peserta di depan menuangkan air ke cangkir peserta di belakangnya, begitu seterusnya hingga sampai pada peserta terakhir. Setelah pengawas memberikan aba-aba, permainan dimulai dengan durasi lima menit per sesi. Kelompok yang berhasil mengumpulkan air terbanyak di ember penampung pada posisi terakhir akan dinyatakan sebagai pemenang.', 'bxr  bx-water-drop-alt bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-water-drop-alt bx-tada'  style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Estafet Air</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Hunting Prize', 'Hunting prize dimainkan oleh tiga tim beranggotakan dua orang yang harus menyelesaikan tiga misi secara estafet. Misi pertama adalah menampilkan gerakan tari singkat dari video panitia, misi kedua tebak kata tanpa suara, dan misi ketiga menjawab soal dengan tiga kesempatan. Tim tercepat yang berhasil menuntaskan semua misi menjadi pemenang, sedangkan tim yang membantu tim lain akan didiskualifikasi.', 'bxr  bx-pacman bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-pacman bx-tada'  style='color:white'></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Hunting Prize</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bawah1 reveal-on-scroll">
+                            <div class="kotak1" onclick="showDetail('Pemecahan Sandi', 'Pemecahan Sandi, setiap kelompok mengirimkan tim berisi lima hingga tujuh orang yang bergerak bersama dari satu pos ke pos berikutnya. Dengan panduan peta sederhana dan clue awal, mereka harus mengumpulkan potongan puzzle berupa huruf atau angka di empat pos berbeda. Setelah semua potongan terkumpul, tim kembali ke base camp untuk menyusun kode sandi empat digit yang dapat membuka gembok “kotak harta karun”. Tim pertama yang berhasil membuka kotaknya dalam batas waktu 15 menit dinyatakan sebagai pemenang.', 'bx bx-street-view bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bx-street-view bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Pemecahan Sandi</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Flag Relay Race', 'Flag relay race, satu tim beranggotakan empat orang dengan peserta pertama membawa glow stick atau bendera. Panitia menyiapkan tujuh checkpoint di sekitar gedung IGS, dan setiap peserta menunggu di posnya masing-masing. Peserta pertama berlari ke checkpoint kedua untuk menyerahkan flag, lalu peserta berikutnya melanjutkan hingga kembali ke checkpoint awal. Tim yang paling cepat menyelesaikan putaran penuh dinyatakan sebagai pemenang.', 'bx bxs-joystick-alt bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bxs-joystick-alt bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Flag Relay Race</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Halang Rintang', 'Halang rintang dimainkan oleh tim berisi tujuh orang yang berdiri berjajar sambil berpegangan tangan. Setelah aba-aba, peserta dari ujung berlari zig-zag melewati teman satu tim hingga semua bergiliran. Peserta terakhir mengambil hula hoop untuk diteruskan secara estafet dari kepala, melewati tubuh, lalu ke tangan hingga mencapai peserta di ujung depan. Tim yang paling cepat menyelesaikan estafet hula hoop dinyatakan sebagai pemenang.', 'bxr bx-music-alt bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-music-alt bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Halang Rintang</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Membuat Dan Melepas Lampion', 'Peserta bersama-sama membuat lampion sederhana, lalu menerbangkannya ke langit sebagai simbol harapan, doa, dan kebersamaan.', 'bx bxs-rocket bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bxs-rocket bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Membuat Dan Melepas Lampion</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Masak Dan Makan', 'Aktivitas memasak dalam kelompok yang diakhiri dengan makan bersama untuk menumbuhkan rasa solidaritas, gotong royong, dan kekeluargaan.', 'bx bxs-bowl-hot bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bxs-bowl-hot bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Masak Dan Makan</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bawah1 reveal-on-scroll">
+                            <div class="kotak1" onclick="showDetail('Performance Dance', 'Pertunjukan tari yang menampilkan kreativitas dan kekompakan peserta, baik secara modern maupun tradisional.', 'bxr bx-ticket bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-ticket bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Performance Dance</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Talent Show', 'Ajang unjuk bakat individu maupun kelompok, seperti menyanyi, bermain alat musik, membaca puisi, atau keterampilan unik lainnya.', 'bxr bx-user-voice bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr bx-user-voice bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Talent Show</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Api Unggun', 'Malam keakraban dengan nyala api unggun, biasanya diisi dengan nyanyian, cerita inspiratif, refleksi, dan permainan sederhana.', 'bx bxs-hot bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bxs-hot bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Api Unggun</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Jalan Santai', 'Kegiatan berjalan bersama menyusuri jalur tertentu yang menyehatkan sekaligus mempererat kebersamaan antar peserta.', 'bxr bx-walking bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class="bxr bx-walking bx-tada " style='color:white'></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Jalan Santai</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Picnic', 'Bersantai bersama di alam terbuka sambil menikmati makanan dan suasana santai, menekankan nilai kebersamaan dan kebahagiaan sederhana.', 'bxr bx-party bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-party bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Picnic</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bawah1 reveal-on-scroll">
+                            <div class="kotak1" onclick="showDetail('Upacara', 'Sesi formal untuk pembukaan, penutupan, atau penghormatan, sebagai bentuk kedisiplinan dan penghargaan terhadap acara.', 'bx bxs-flag-alt bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bx bxs-flag-alt bx-tada' style='color:white' ></i>
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Upacara</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Performance Band', 'Penampilan musik band yang membangkitkan semangat, menciptakan suasana meriah, sekaligus ruang ekspresi seni.', 'bxr  bx-music-alt bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-music-alt bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Performance Band</b>
+                                </div>
+                            </div>
+                             <div class="kotak1" onclick="showDetail('Performance Ballet', 'Pertunjukan balet yang menonjolkan keanggunan, keindahan gerak, serta nilai seni klasik.', 'bxr  bx-woman bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr  bx-woman bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Performance Ballet</b>
+                                </div>
+                            </div>
+                            <div class="kotak1" onclick="showDetail('Foto Bersama', 'Dokumentasi sebagai penutup kegiatan, menjadi kenangan berharga dan simbol kebersamaan seluruh peserta.', 'bxr bx-camera-alt bx-tada')">
+                                <div class="kotak1-atas">
+                                    <i class='bxr bx-camera-alt bx-tada' style='color:white'></i> 
+                                </div>
+                                <div class="kotak1-bawah">
+                                    <b>Foto Bersama</b>
+                                </div>
+                            </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="registration">
+        <div class="bawah1 reveal-on-scroll">
+            <div class="registration-2">
+                <div class="registration-title">
+                    <h1 class="text-glow">Registration</h1>
+                </div>
+                <div class="bagianbawah">
+                    <div class="kotak2">
+                        <div class="kotak2-content">
+                            <div class="kotak2-atas">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcAzldiJ1YKtwhnMDApoHHf5tGt8pC9yDqngvjS5G3XLTACg/viewform?usp=sharing&ouid=115393530546124661524
+                                "><img src="img copy/Hunting Prize.png" alt=""></a>
+                            </div>
+                            <div class="kotak2-bawah">
+                                <div class="kotak2-bawah-atas">
+                                    <h3 class="text-glow">Hunting Prize</h3>
+                                </div>
+                                <div class="kotak2-bawah-bawah">
+                                    <p>Register Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                
+                    <div class="kotak2">
+                        <div class="kotak2-content">
+                            <div class="kotak2-atas">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4mnzIbWejEOAsnFg5Q8R194yl9W6CG8yr1Xbgg-apm7_nDQ/viewform?usp=sharing&ouid=115393530546124661524
+                                "><img src="img copy/Flag Relay Race.png" alt=""></a>
+                            </div>
+                            <div class="kotak2-bawah">
+                                <div class="kotak2-bawah-atas">
+                                    <h3 class="text-glow">Flag Relay Race</h3>
+                                </div>
+                                <div class="kotak2-bawah-bawah">
+                                    <p>Register Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+                    <div class="kotak2">
+                        <div class="kotak2-content">
+                            <div class="kotak2-atas">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSegBdEu3BIwJUTF6OjAvXXlU2nhjzcBiQdv14Fbb1DU4Lqixw/viewform?usp=sharing&ouid=115393530546124661524
+                                "><img src="img copy/Halang Rintang.png" alt=""></a>
+                            </div>
+                            <div class="kotak2-bawah">
+                                <div class="kotak2-bawah-atas">
+                                    <h3 class="text-glow">Halang Rintang</h3>
+                                </div>
+                                <div class="kotak2-bawah-bawah">
+                                    <p>Register Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="bawah1 reveal-on-scroll">
+                        <div class="bagianbawah">
+                            <div class="kotak2">
+                                <div class="kotak2-content">
+                                    <div class="kotak2-atas">
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSesB5Dt0hNosqqtljOvJqWtf3Z1PjBxz4POZuS2gi5QT-MPUQ/viewform?usp=sharing&ouid=115393530546124661524
+                                        "><img src="img copy/Estafet Air.jpeg" alt=""></a>
+                                    </div>
+                                    <div class="kotak2-bawah">
+                                        <div class="kotak2-bawah-atas">
+                                            <h3 class="text-glow">Estafet Air</h3>
+                                        </div>
+                                        <div class="kotak2-bawah-bawah">
+                                            <p>Register Now</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                     
+                            <div class="kotak2">
+                                <div class="kotak2-content">
+                                    <div class="kotak2-atas">
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSci8bzF-Ufzt6OopqsX9r7vhsaWXt66dktV7-d7XbQcxQXkRA/viewform?usp=sharing&ouid=115393530546124661524">
+                                        <img src="img copy/Pemecahan Sandi.png" alt=""></a>
+                                    </div>
+                                    <div class="kotak2-bawah">
+                                        <div class="kotak2-bawah-atas">
+                                            <h3 class="text-glow">Pemecahan Sandi</h3>
+                                        </div>
+                                        <div class="kotak2-bawah-bawah">
+                                            <p>Register Now</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="detail-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeDetail()">&times;</span>
+            <div class="modal-body">
+                <div class="modal-text">
+                    <div class="modal-text2">
+                        <div class="modal-text3">
+                            <h2 id="modal-title"></h2>
+                            <p id="modal-description"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-icon" id="modal-icon-container">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer reveal-on-scroll">
+        <div class="footeratas">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a16b55" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,101.3C384,107,480,85,576,101.3C672,117,768,171,864,160C960,149,1056,75,1152,69.3C1248,64,1344,128,1392,160L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+        <div class="footerbawah">
+            <div class="footerkiri">
+                <div class="footerkiriutama">
+                    <div class="footerkiriatas">
+                        <img src="img copy/Logo Kelompok2-fotor-bg-remover-202509079139.png" alt="Logo OSIS">
+                    </div>
+                    <div class="footerkiritengah">
+                        <h1>Valiance</h1>
+                    </div>
+                    <div class="footerkiribawah">
+                        <p>Kabinet OSIS SMA Ignatius Global <br>
+                           School periode 2024/2025</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footertengah">
+                <div class="footertengah1">
+                </div>
+                <div class="footertengah2">
+                    <div class="footertengah2-atas">
+                        <i class='bxr  bx-location'  style='color:white; font-size: 70px;'></i> 
+                    </div>
+                    <div class="footertengah2-bawah">
+                        <p>
+                            Jl. Mayor Ruslan No. 118, 20 Ilir I, Kec. Ilir Timur I, <br>Palembang
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerkanan">
+                <div class="footerkanan-isi">
+                    <div class="isi1">
+                        <a href="https://www.instagram.com/osis.smaigs/"><img src="img copy/instagram-logo-24 (1).png" alt="Instagram Logo"></a>
+                        <p>Instagram</p>
+                    </div>
+                      <div class="isi1">
+                        <a href="https://x.com/osis_smaigs?t=L-SgwLESUY_a6ViBCYIlTw&s=09"><img src="img copy/twitter-logo-24.png" alt="Instagram Logo"></a>
+                        <p>Twitter</p>
+                    </div>
+                      <div class="isi1">
+                        <a href="https://www.tiktok.com/@osis.smaigs"><img src="img copy/tiktok-logo-24.png" alt="Instagram Logo"></a>
+                        <p>Tiktok</p>
+                    </div>
+                      <div class="isi1">
+                        <a href="https://line.me/R/ti/p/@053dzdrl?from=page"><img src="img copy/line logo.png" alt="Instagram Logo" style="height: 5vh;"></a>
+                        <p style="margin-left: 20px;">Line</p>
+                    </div>
+                    <div class="isi1">
+                        <a href="https://www.youtube.com/channel/UCJcG1VCjXHNig5JIDEgYH7w"><img src="img copy/youtube-logo-24.png" alt="Instagram Logo"></a>
+                        <p>Youtube</p>
+                    </div>
+                    <div class="isi1">
+                        <a href="https://github.com/OSISSMAIGS"><img src="img copy/github-logo-24.png" alt="Instagram Logo"></a>
+                        <p>Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="latihan1.js"></script>
+</body>
+</html>
